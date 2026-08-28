@@ -1,12 +1,9 @@
 public class Rock  extends Cancion{
     private String tiporock;
 
-    public Rock(String titulo, String autor, int duracion, String tiporock) {
-        super(titulo, autor, duracion);
-    }
-
+@Override
     public void reproducir() {
-        System.out.println("Reproduciendo canción: " + getTitulo());
+        System.out.println("Reproduciendo Rock: " + getTitulo());
     }
     public String getTiporock() {
         return tiporock;
