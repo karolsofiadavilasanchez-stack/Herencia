@@ -2,13 +2,13 @@ public class Cancion {
 
     private String titulo;
     private String autor;
-    private int duracion;
+    private double duracion;
     
     
     public void reproducir() {
         System.out.println("Reproduciendo canción: " + titulo);
     }
-    public void mostrarDetalles() {
+    public void mostrarInformacion() {
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Duración: " + duracion + " minutos");
@@ -25,10 +25,10 @@ public class Cancion {
     public void setAutor(String autor) {
         this.autor = autor;
     }
-    public int getDuracion() {
+    public double getDuracion() {
         return duracion;
     }
-    public void setDuracion(int duracion) {
+    public void setDuracion(double duracion) {
         this.duracion = duracion;
     }
 }

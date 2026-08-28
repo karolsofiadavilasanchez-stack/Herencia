@@ -6,21 +6,21 @@ public class App {
  
         Rock rock = new Rock();
         rock.setTitulo("Sweet Child O' Mine");
-        rock.setArtista("Guns N' Roses");
+        rock.setAutor("Guns N' Roses");
         rock.setDuracion(5.56);
-        rock.setTipoRock("Hard Rock");
+        rock.setTiporock("Hard Rock");
  
         Pop pop = new Pop();
         pop.setTitulo("Blinding Lights");
-        pop.setArtista("The Weeknd");
+        pop.setAutor("The Weeknd");
         pop.setDuracion(3.20);
         pop.setEstilo("Pop moderno");
  
         Electronica electronica = new Electronica();
         electronica.setTitulo("Strobe");
-        electronica.setArtista("Deadmau5");
+        electronica.setAutor("Deadmau5");
         electronica.setDuracion(10.37);
-        electronica.setBpm(128);
+        electronica.setBmp("128");
  
  
         Solista solista = new Solista();

@@ -1,5 +1,5 @@
 public class Banda extends Artista{
-    private String integrantes;
+    private int integrantes = 0;
 
   @Override
   public void mostrarInformacion() {
@@ -7,11 +7,11 @@ public class Banda extends Artista{
     System.out.println("Género: " + getGenero());
     System.out.println("Integrantes: " + integrantes);
   }  
-  public String getIntegrantes() {
+  public int getIntegrantes() {
     return integrantes;
   }
-  public void setIntegrantes(String integrantes) {
+  public void setIntegrantes(int integrantes) {
     this.integrantes = integrantes;
   }
-  
+
 }

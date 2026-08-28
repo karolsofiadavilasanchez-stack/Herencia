@@ -1,5 +1,5 @@
 public class Rock  extends Cancion{
-    private String tiporock;
+    private String tiporock="";
 
 @Override
     public void reproducir() {
