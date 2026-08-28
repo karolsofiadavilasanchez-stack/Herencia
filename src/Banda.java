@@ -13,4 +13,5 @@ public class Banda extends Artista{
   public void setIntegrantes(String integrantes) {
     this.integrantes = integrantes;
   }
+  
 }
